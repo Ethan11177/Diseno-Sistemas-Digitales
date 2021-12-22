@@ -1,0 +1,5 @@
+20
+~E 1 "../src/Fub1.vhd" 28 Fub1
+~A 1 "../src/Fub1.vhd" 39 Fub1
+~E 1 "../compile/RegistroSerie.vhd" 27 puertos
+~A 1 "../compile/RegistroSerie.vhd" 42 programa

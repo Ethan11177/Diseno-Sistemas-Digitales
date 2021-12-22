@@ -1,0 +1,65 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=RecorrimientoSerie
+
+[Library]
+RecorrimientoSerie=.\RecorrimientoSerie\RecorrimientoSerie.lib
+
+[$LibMap$]
+RecorrimientoSerie=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[Folders]
+Name0=Event Lists
+Directory0=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension0=lst
+Name1=Logs
+Directory1=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RecorrimientoSerie\RecorrimientoSerie\
+Extension7=htm;html
+
+[SpecTracer]
+WindowVisible=0
+
+[Files]
+/Fub1.vhd=-1
+/RegistroSerie.bde=-1
+
+[Files.Data]
+.\src\Fub1.vhd=VHDL Source Code
+.\src\RegistroSerie.bde=Block Diagram
+
+[file_out:/RegistroSerie.bde]
+/..\compile\RegistroSerie.vhd=-1
+
+[HierarchyViewer]
+HierarchyInformation=puertos|programa|0 
+ShowHide=ShowTopLevel
+Selected=

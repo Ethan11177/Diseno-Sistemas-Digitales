@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+contador=.\Contador\Contador.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+contador=1

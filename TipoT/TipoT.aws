@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+tipot=.\TipoT\TipoT.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+tipot=1

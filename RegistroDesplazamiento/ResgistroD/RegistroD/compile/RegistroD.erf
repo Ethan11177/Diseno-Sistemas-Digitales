@@ -1,0 +1,14 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 
+MESSAGE "Compile Entity "puertos"" 
+MESSAGE "Compile Architecture "programa" of Entity "puertos"" 
+ERROR COMP96_0049: "Syntax error in expression." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 50 14
+ERROR COMP96_0015: "')' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 50 14
+ERROR COMP96_0019: "Keyword 'then' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 50 15
+ERROR COMP96_0049: "Syntax error in expression." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 56 17
+ERROR COMP96_0015: "')' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 56 17
+ERROR COMP96_0019: "Keyword 'then' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 56 18
+ERROR COMP96_0019: "Keyword 'process' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 60 8
+ERROR COMP96_0015: "';' expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 62 7
+ERROR COMP96_0016: "Design unit declaration expected." "C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd" 62 9
+FAILURE "Compile failure 9 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

@@ -1,0 +1,42 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=RegistroDesplazamientoParaleloFull
+
+[Library]
+RegistroDesplazamientoParaleloFull=.\RegistroDesplazamientoParaleloFull\RegistroDesplazamientoParaleloFull.lib
+
+[$LibMap$]
+RegistroDesplazamientoParaleloFull=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=Schematic
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Files]
+/Fub1.vhd=-1
+/Fub2.vhd=-1
+/RegistroDeesplazamientoParaleloFull.bde=-1
+
+[Files.Data]
+.\src\Fub1.vhd=VHDL Source Code
+.\src\Fub2.vhd=VHDL Source Code
+.\src\RegistroDeesplazamientoParaleloFull.bde=Block Diagram
+
+[file_out:/RegistroDeesplazamientoParaleloFull.bde]
+/..\compile\RegistroDeesplazamientoParaleloFull.vhd=-1
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=puertos|programa|0   
+ShowHide=ShowTopLevel
+Selected=

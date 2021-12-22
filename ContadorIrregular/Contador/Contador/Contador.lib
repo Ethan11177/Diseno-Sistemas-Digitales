@@ -1,0 +1,24 @@
+timestamp=1638586161654
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=3|0Contador.mgf|1338|0
+1=1|1Contador.mgf|0|0
+3=1|3Contador.mgf|0|0
+
+[variables]
+A/arquitectura=21|../src/contador.vhd|37|1*0
+BinI32/arquitectura=3*0
+I=0*513
+I/arquitectura=0*1338
+M=11|0|ve4|1638586110658|../src/contador.vhd|0*199*0xe395cd98a75ed5439fb00c39551ed4f49ab722e3|0*431*0x23b75c12e3e89f2ef000564498faa8c2
+M/arquitectura=21|0|ve4|1638586161625|../src/contador.vhd|0*715*0xd37a52f1ce4aa69d5f34b59768a023ded257ea00|0*1240*0x20116f55b147878295aeff36dce7fc50
+R=../src/contador.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|47dd3653220e0a7a52884e182da7dcd75fb4070a7fdfd8da59b6a7357a41e9dc1e79087b77f3acc12b6a48713de0e74e
+Version/arquitectura=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|773927032b2c169956ff6d52d7355c4be640daae87c08dac55c5e0e9f50fabea68ad47c45477d994b63d1166ea115274
+
+[~U]
+variables=11|0*0|

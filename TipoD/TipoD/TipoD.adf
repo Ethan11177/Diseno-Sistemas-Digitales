@@ -1,0 +1,57 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=TipoD
+[Library]
+TipoD=.\TipoD\TipoD.lib
+[$LibMap$]
+TipoD=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/TipoD.vhd=-1
+[Files.Data]
+.\src\TipoD.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=puertos|procesador|0    
+ShowHide=ShowTopLevel
+Selected=
+[Folders]
+Name0=Event Lists
+Directory0=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension0=lst
+Name1=Logs
+Directory1=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\TipoD\TipoD\
+Extension7=htm;html

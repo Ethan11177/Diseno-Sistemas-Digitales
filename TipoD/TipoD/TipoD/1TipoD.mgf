@@ -1,0 +1,46 @@
+I 000051 55 667           1632266984783 procesador
+(_unit VHDL(puertos 0 28(procesador 0 39))
+	(_version ve4)
+	(_time 1632266984784 2021.09.21 18:29:44)
+	(_source(\../src/TipoD.vhd\))
+	(_parameters tan)
+	(_code 1d1c1f1b4c4a4c0a1e4e09471a1a1e1a1d1a181b18)
+	(_ent
+		(_time 1632266984781)
+	)
+	(_object
+		(_port(_int D -1 0 30(_ent(_in))))
+		(_port(_int clk -1 0 31(_ent(_in)(_event))))
+		(_port(_int Q -1 0 32(_ent(_out))))
+		(_port(_int Qn -1 0 33(_ent(_out))))
+		(_prcs
+			(line__43(_arch 0 0 43(_prcs(_trgt(2)(3))(_sens(1)(0))(_dssslsensitivity 1))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . procesador 1 -1)
+)
+V 000051 55 667           1632360454346 procesador
+(_unit VHDL(puertos 0 28(procesador 0 39))
+	(_version ve4)
+	(_time 1632360454347 2021.09.22 20:27:34)
+	(_source(\../src/TipoD.vhd\))
+	(_parameters tan)
+	(_code 50020252550701475303440a575753575057555655)
+	(_ent
+		(_time 1632266984780)
+	)
+	(_object
+		(_port(_int D -1 0 30(_ent(_in))))
+		(_port(_int clk -1 0 31(_ent(_in)(_event))))
+		(_port(_int Q -1 0 32(_ent(_out))))
+		(_port(_int Qn -1 0 33(_ent(_out))))
+		(_prcs
+			(line__43(_arch 0 0 43(_prcs(_trgt(2)(3))(_sens(1)(0))(_dssslsensitivity 1))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . procesador 1 -1)
+)

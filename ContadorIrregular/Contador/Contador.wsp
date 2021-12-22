@@ -1,0 +1,23 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Contador=1
+Built-in symbols=0
+
+[COMPILESTATUS|.\src\contador.vhd]
+FileTimeLow=30927033
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Contador\Contador.adf|]
+Path=/variables
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Contador\src/contador.vhd|]
+CurrentLine=60
+CurrentColumn=55
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACRAAAAfwcAAGoDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

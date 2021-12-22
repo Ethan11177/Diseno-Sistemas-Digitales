@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=RegistroRotacionDerecha
+
+[Library]
+RegistroRotacionDerecha=.\RegistroRotacionDerecha\RegistroRotacionDerecha.lib
+
+[$LibMap$]
+RegistroRotacionDerecha=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=Schematic
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Files]
+/Fub1.vhd=-1
+/RegistroRotacionDerecha.bde=-1
+
+[Files.Data]
+.\src\Fub1.vhd=VHDL Source Code
+.\src\RegistroRotacionDerecha.bde=Block Diagram
+
+[file_out:/RegistroRotacionDerecha.bde]
+/..\compile\RegistroRotacionDerecha.vhd=-1
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=puertos|programa|0 
+ShowHide=ShowTopLevel
+Selected=

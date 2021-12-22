@@ -1,0 +1,23 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+RegistroT=1
+Built-in symbols=0
+
+[COMPILESTATUS|.\src\RecorrimientoT.vhd]
+FileTimeLow=30914184
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\RegistroT\RegistroT.adf|]
+Path=/puertos
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\RegistroT\src/RecorrimientoT.vhd|]
+CurrentLine=54
+CurrentColumn=14
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACRAAAAfwcAAGwDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

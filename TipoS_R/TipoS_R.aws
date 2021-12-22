@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+tipos_r=.\TipoS_R\TipoS_R.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+tipos_r=1

@@ -1,0 +1,41 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Anillo
+
+[Library]
+Anillo=.\Anillo\Anillo.lib
+
+[$LibMap$]
+Anillo=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=Schematic
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Files]
+/Anillo.bde=-1
+/Fub1.vhd=-1
+/Fub2.vhd=-1
+
+[Files.Data]
+.\src\Anillo.bde=Block Diagram
+.\src\Fub1.vhd=VHDL Source Code
+.\src\Fub2.vhd=VHDL Source Code
+
+[file_out:/Anillo.bde]
+/..\compile\Anillo.vhd=-1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=puertos|programa|0 
+ShowHide=ShowTopLevel
+Selected=

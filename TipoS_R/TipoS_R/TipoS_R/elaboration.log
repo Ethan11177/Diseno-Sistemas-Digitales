@@ -1,0 +1,33 @@
+Active-HDL 11.1.262.7351 2021-09-24 12:00:31
+
+Elaboration top modules:
+Architecture                  procesador(puertos)
+
+
+-----------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+puertos  | procesador   | tipos_r |      | 11.1.262.7351 (Windows) | -O3
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+standard                | std     |      |                         | <unavailable>
+TEXTIO                  | std     |      |                         | <unavailable>
+std_logic_1164          | ieee    |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+tipos_r                 | None
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+puertos puertos procesador
+
+
+The performance of simulation is reduced. Version Student Edition

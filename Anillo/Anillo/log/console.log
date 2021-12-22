@@ -1,0 +1,285 @@
+# Design: Design Anillo already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: EDIF
+# DESIGN: Flow Manager: Not Defined
+# BDE: Implementation has been created and attached to instance "U1" of fub "Fub1 (Fub1)" from library "Anillo".
+acom -reorder -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 12 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => puertos
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Error: COMP96_0361: Fub1.vhd : (46, 7): 'evnt is not an attribute of this prefix.
+# Error: COMP96_0077: Fub1.vhd : (46, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# File: ./../compile/Anillo.vhd
+# Compile Architecture "programa" of Entity "puertos"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7070 kB (elbread=1280 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\wave.asdb
+#  11:19 a. m., martes, 5 de octubre de 2021
+#  Simulation has been initialized
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/wave.asdb'.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 5011550 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 11 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7070 kB (elbread=1280 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\wave.asdb
+#  11:20 a. m., martes, 5 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 3263040 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 11 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7070 kB (elbread=1280 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\wave.asdb
+#  11:21 a. m., martes, 5 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/wave.asdb'.
+# 1 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 2232700 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Error: Anillo.bde - 1 error(s), 11 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 11 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7070 kB (elbread=1280 elab2=5651 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\wave.asdb
+#  11:22 a. m., martes, 5 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 4586350 ns
+# VSIM: Simulation has finished.
+# BDE: Implementation has been created and attached to instance "U12" of fub "Fub2 (Fub2)" from library "Anillo".
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde $dsn/src/Fub1.vhd $dsn/src/Fub2.vhd
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Warning: ELAB1_0026: Anillo.bde(Anillo.vhd) : (51, 0): There is no default binding for component "Fub2". (No entity named "Fub2" was found).
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub1.vhd
+# Compile Entity "Fub1"
+# Compile Architecture "Fub1" of Entity "Fub1"
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Fub2.vhd
+# Compile Entity "Fub2"
+# Compile Architecture "Fub2" of Entity "Fub2"
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Entity Anillo.Fub2 has been compiled after architecture Anillo.puertos(programa) that instantiates and binds this entity at simulation initialization. Recompile the source files in the correct order to perform the binding operation during compilation and simultaneously reduce the time required to initialize the simulation.
+# ELBREAD: Warning: The contents of entity 'Fub2' instantiated in architecture 'programa' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Anillo -2002  $dsn/src/Anillo.bde
+# DRC: Checking file 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/Anillo.bde'.
+# DRC: Warning: Anillo.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\compile\Anillo.vhd from C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\Anillo.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/Anillo.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7069 kB (elbread=1280 elab2=5651 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\Anillo\Anillo\src\wave.asdb
+#  11:26 a. m., martes, 5 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/Anillo/Anillo/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 3206200 ns
+# VSIM: Simulation has finished.

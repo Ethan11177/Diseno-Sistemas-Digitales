@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/puertos/Cs"/>
+				<rawdescription value="CLK:FRM:Override:200.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/puertos/D1"/>
+				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/puertos/D2"/>
+				<rawdescription value="CLK:FRM:Override:20.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/puertos/clk"/>
+				<rawdescription value="CLK:FRM:Override:60.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

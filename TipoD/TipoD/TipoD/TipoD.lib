@@ -1,0 +1,24 @@
+timestamp=1632360454372
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=2|0TipoD.mgf|1027|0
+1=2|1TipoD.mgf|718|718
+3=2|3TipoD.mgf|0|0
+
+[puertos]
+A/procesador=21|../src/TipoD.vhd|39|1*718
+BinI32/procesador=3*0
+I=0*508
+I/procesador=0*1027
+M=11|0|ve4|1632266984780|../src/TipoD.vhd|0*186*0x5443f164fea0e27dbc7c1a94e7017ceea6ff9cdc|0*431*0x23b75c12e3e89f2ef000564498faa8c2
+M/procesador=21|0|ve4|1632360454348|../src/TipoD.vhd|0*708*0x98685508c87d6ac9407de3eba0fbfed9bbcf256a|0*936*0x20116f55b147878295aeff36dce7fc50
+R=../src/TipoD.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|7a656fb829a6ad25127e74ae3f5c306226527262ddaa47cb266f3a3c4d9b973a2bcb9fa2bfcf30b23d4c9a60936bb95c
+Version/procesador=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|06f2d3cd25441a3caa6ed4067a9fbfb1777f23c8df6524548e9bff94c1069994ec1ac2b1e5e342ed8eb10d45da489d87
+
+[~U]
+puertos=11|0*0|

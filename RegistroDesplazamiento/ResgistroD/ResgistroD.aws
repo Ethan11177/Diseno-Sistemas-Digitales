@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+registrod=.\RegistroD\RegistroD.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+registrod=1

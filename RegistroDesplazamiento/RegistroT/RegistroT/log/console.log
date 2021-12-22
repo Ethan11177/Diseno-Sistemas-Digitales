@@ -1,0 +1,827 @@
+# Design: Design RegistroT already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Top-level unit(s) detected:
+# Entity => puertos
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Error: COMP96_0015: RecorrimientoT.vhd : (34, 4): ')' expected.
+# Error: COMP96_0015: RecorrimientoT.vhd : (34, 4): ';' expected.
+# Error: COMP96_0019: RecorrimientoT.vhd : (34, 6): Keyword 'end' expected.
+# Error: COMP96_0111: RecorrimientoT.vhd : (34, 6): Labels do not match.
+# Error: COMP96_0015: RecorrimientoT.vhd : (34, 8): ';' expected.
+# Error: COMP96_0016: RecorrimientoT.vhd : (34, 10): Design unit declaration expected.
+# Compile Architecture "programa" of Entity "puertos"
+# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0078: RecorrimientoT.vhd : (50, 10): Unknown identifier "D".
+# Error: COMP96_0133: RecorrimientoT.vhd : (50, 10): Cannot find object declaration.
+# Error: COMP96_0077: RecorrimientoT.vhd : (50, 10): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:30 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 14250900 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0015: RecorrimientoT.vhd : (47, 6): '<=' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:33 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 19484820 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:34 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 10079160 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:36 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 8342700 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:37 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 5445270 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0015: RecorrimientoT.vhd : (63, 4): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:40 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 8880270 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:40 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 16537800 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:42 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 2497200 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:43 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 6193980 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:43 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 7031490 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7068 kB (elbread=1280 elab2=5650 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:45 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 5788470 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0019: RecorrimientoT.vhd : (57, 9): Keyword 'end' expected.
+# Error: COMP96_0019: RecorrimientoT.vhd : (62, 7): Keyword 'process' expected.
+# Error: COMP96_0015: RecorrimientoT.vhd : (64, 6): ';' expected.
+# Error: COMP96_0016: RecorrimientoT.vhd : (64, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0019: RecorrimientoT.vhd : (57, 9): Keyword 'end' expected.
+# Error: COMP96_0019: RecorrimientoT.vhd : (62, 7): Keyword 'process' expected.
+# Error: COMP96_0015: RecorrimientoT.vhd : (64, 6): ';' expected.
+# Error: COMP96_0016: RecorrimientoT.vhd : (64, 13): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:46 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 4762320 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:47 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 9594060 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:47 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 5738700 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:48 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 4476390 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:49 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 6279630 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:50 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 2709600 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:51 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 6437970 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:52 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 2912910 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:53 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 2112870 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work RegistroT -2002  $dsn/src/RecorrimientoT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/RecorrimientoT.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+puertos puertos programa
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\eevae\OneDrive\Documentos\Programacion\DSD\RegistroDesplazamiento\RegistroT\RegistroT\src\wave.asdb
+#  12:53 a. m., viernes, 1 de octubre de 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/RegistroT/RegistroT/src/wave.asdb'.
+run
+endsim
+# KERNEL: stopped at time: 3376425 ns
+# VSIM: Simulation has finished.

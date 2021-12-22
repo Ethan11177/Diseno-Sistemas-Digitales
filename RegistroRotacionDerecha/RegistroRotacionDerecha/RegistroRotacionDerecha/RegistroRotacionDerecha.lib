@@ -1,0 +1,38 @@
+timestamp=1633205082340
+
+[~A]
+ModifyID=46
+Version=74
+
+[~MFT]
+0=16|0RegistroRotacionDerecha.mgf|34546|31833
+1=4|1RegistroRotacionDerecha.mgf|44152|43502
+2=0|2RegistroRotacionDerecha.mgf|0|0
+3=2|3RegistroRotacionDerecha.mgf|0|0
+
+[fub1]
+A/fub1=A/Fub1 21|../src/Fub1.vhd|38|1*43502
+BinI32/fub1=3*0
+I=0*2186
+I/fub1=I/Fub1 0*33758
+M=11|0|ve4|1633203394134|../src/Fub1.vhd|0*1898*0xf8062e3bdfa1866d0b66bb7c3da71d70fc57855f|0*2113*0x23b75c12e3e89f2ef000564498faa8c2
+M/fub1=M/Fub1 21|0|ve4|1633205082289|../src/Fub1.vhd|0*33474*0xf312252f7619ddf0274272c27c18db56c81ebcca|0*33677*0x20116f55b147878295aeff36dce7fc50
+NSymbols/fub1=NSymbols/Fub1 40|0|2*0
+R=../src/Fub1.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c560993b7cf755303e87f2da80cac651e1fad
+Version/fub1=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c5609a407e8faef896e54a37b8d1e45d0ea92
+
+[puertos]
+A/programa=24|../src/RegistroRotacionDerecha.bde|10000|1*44152
+I=0*32232
+I/programa=0*34546
+M=11|0|ve4|1633204636899|../compile/RegistroRotacionDerecha.vhd|0*31751*0x299148f2c2cd5442b3463615c7153ee1c32a55ca|0*32133*0x23b75c12e3e89f2ef000564498faa8c2
+M/programa=21|0|ve4|1633205082320|../compile/RegistroRotacionDerecha.vhd|0*33960*0xdaf9603bdc8daa224228c875dab82263341d1223|0*34435*0x20116f55b147878295aeff36dce7fc50
+R=../compile/RegistroRotacionDerecha.vhd|27
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|7a656fb829a6ad25127e74ae3f5c306226527262ddaa47cb266f3a3c4d9b973ac0641f46f5e800e2bbdc735565ef68eb
+Version/programa=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|d9b4f1858f9b4cc6cdfc15e305228306d87c0d9e5d47914393e583f08079e8904f3501a3b67732c7911fe6899f544854
+
+[~U]
+fub1=Fub1 11|0*1721||0x3
+puertos=11|0*31561|
+

@@ -1,0 +1,7 @@
+28
+~E 1 "../src/Fub1.vhd" 28 Fub1
+~A 1 "../src/Fub1.vhd" 38 Fub1
+~E 1 "../src/Fub2.vhd" 28 Fub2
+~A 1 "../src/Fub2.vhd" 38 Fub2
+~E 1 "../compile/Anillo.vhd" 27 puertos
+~A 1 "../compile/Anillo.vhd" 36 programa

@@ -1,0 +1,24 @@
+timestamp=1632278770694
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=3|0TipoJK.mgf|1192|0
+1=1|1TipoJK.mgf|0|0
+3=1|3TipoJK.mgf|0|0
+
+[puertos]
+A/procesador=21|../src/TipoJK.vhd|40|1*0
+BinI32/procesador=3*0
+I=0*532
+I/procesador=0*1192
+M=11|0|ve4|1632278732317|../src/TipoJK.vhd|0*189*0x30230d4973252aeaafc1f255249aef74680179cb|0*454*0x23b75c12e3e89f2ef000564498faa8c2
+M/procesador=21|0|ve4|1632278770671|../src/TipoJK.vhd|0*732*0x9e8bab4b3b92be0fc0def455405b00f9d141b308|0*1100*0x20116f55b147878295aeff36dce7fc50
+R=../src/TipoJK.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|7a656fb829a6ad25127e74ae3f5c306226527262ddaa47cb266f3a3c4d9b973a3d41e81765881c629fc598c0ed8bdd64
+Version/procesador=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|06f2d3cd25441a3caa6ed4067a9fbfb1777f23c8df6524548e9bff94c10699944baec8d251d5e1d3c42a29336315027f
+
+[~U]
+puertos=11|0*0|

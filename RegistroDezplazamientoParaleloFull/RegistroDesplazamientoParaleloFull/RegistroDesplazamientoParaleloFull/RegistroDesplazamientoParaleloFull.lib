@@ -1,0 +1,50 @@
+timestamp=1633155498011
+
+[~A]
+ModifyID=11
+Version=74
+
+[~MFT]
+0=29|0RegistroDesplazamientoParaleloFull.mgf|4883|878
+1=5|1RegistroDesplazamientoParaleloFull.mgf|3206|1923
+2=0|2RegistroDesplazamientoParaleloFull.mgf|1488|0
+3=2|3RegistroDesplazamientoParaleloFull.mgf|263|0
+
+[fub1]
+A/fub1=A/Fub1 21|../src/Fub1.vhd|38|1*1923
+BinI32/fub1=3*0
+I=0*2372
+I/fub1=I/Fub1 0*2839
+M=11|0|ve4|1633155497918|../src/Fub1.vhd|0*2084*0xe588b150d0bb03e296e780e95929359ffb73824e|0*2299*0x23b75c12e3e89f2ef000564498faa8c2
+M/fub1=M/Fub1 21|0|ve4|1633155497923|../src/Fub1.vhd|0*2569*0xa885f43607a219e6c20d037a051e4175f57a9f77|0*2758*0x20116f55b147878295aeff36dce7fc50
+NSymbols/fub1=NSymbols/Fub1 40|0|2*0
+R=../src/Fub1.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c5609467d5edd1349388a69177db2d51cd5c2
+Version/fub1=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|30f67b453fd86d402eb17e64712c5609467d5edd1349388a69177db2d51cd5c2
+
+[fub2]
+A/fub2=A/Fub2 21|../src/Fub2.vhd|38|1*2576
+BinI32/fub2=3*263
+I=0*3506
+I/fub2=I/Fub2 0*3927
+M=11|0|ve4|1633155497953|../src/Fub2.vhd|0*3218*0x82a6a9036992ea5c10e580d4fe683f52e8f863c5|0*3433*0x23b75c12e3e89f2ef000564498faa8c2
+M/fub2=M/Fub2 21|0|ve4|1633155497959|../src/Fub2.vhd|0*3703*0xcce00e80a800d769f3b189c556c2c5e5d0766e90|0*3846*0x20116f55b147878295aeff36dce7fc50
+NSymbols/fub2=NSymbols/Fub2 40|0|2*1488
+R=../src/Fub2.vhd|28
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|f1eb721dfd800a1abe471ed754aa4b3a32ab9685c1b169a3b59f4d87b6fe0561
+Version/fub2=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|f1eb721dfd800a1abe471ed754aa4b3a32ab9685c1b169a3b59f4d87b6fe0561
+
+[puertos]
+A/programa=24|../src/RegistroDeesplazamientoParaleloFull.bde|10000|1*3206
+I=0*721
+I/programa=0*4883
+M=11|0|ve4|1633155497904|../compile/RegistroDeesplazamientoParaleloFull.vhd|0*195*0x311ad1e719a36a2dc2ba88d1ef0af5462d23c81d|0*610*0x23b75c12e3e89f2ef000564498faa8c2
+M/programa=21|0|ve4|1633155498005|../compile/RegistroDeesplazamientoParaleloFull.vhd|0*4129*0xad6f25a43a68a91bde53c1f95a7a365f8c2dfaa3|0*4760*0x20116f55b147878295aeff36dce7fc50
+R=../compile/RegistroDeesplazamientoParaleloFull.vhd|27
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|7a656fb829a6ad25127e74ae3f5c306226527262ddaa47cb266f3a3c4d9b973aabd8d145d9f58f96117a2ce017f85a9e
+Version/programa=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|d9b4f1858f9b4cc6cdfc15e305228306d87c0d9e5d47914393e583f08079e890f4d6129ce29b5fcbf97de7f035104cc7
+
+[~U]
+fub1=Fub1 11|0*1907||0x3
+fub2=Fub2 11|0*3041||0x3
+puertos=11|0*0|

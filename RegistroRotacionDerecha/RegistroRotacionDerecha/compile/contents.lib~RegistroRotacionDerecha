@@ -1,0 +1,5 @@
+46
+~E 1 "../src/Fub1.vhd" 28 Fub1
+~A 1 "../src/Fub1.vhd" 38 Fub1
+~E 1 "../compile/RegistroRotacionDerecha.vhd" 27 puertos
+~A 1 "../compile/RegistroRotacionDerecha.vhd" 37 programa

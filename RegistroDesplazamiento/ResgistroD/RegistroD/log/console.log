@@ -1,0 +1,46 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work RegistroD -2002  $dsn/src/RecorrimientioD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd
+# Compile Entity "puertos"
+# Error: COMP96_0078: RecorrimientioD.vhd : (35, 9): Unknown identifier "int".
+# Error: COMP96_0164: RecorrimientioD.vhd : (35, 9): Cannot find resolution function declaration.
+# Compile Architecture "programa" of Entity "puertos"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work RegistroD -2002  $dsn/src/RecorrimientioD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work RegistroD -2002  $dsn/src/RecorrimientioD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0049: RecorrimientioD.vhd : (50, 14): Syntax error in expression.
+# Error: COMP96_0015: RecorrimientioD.vhd : (50, 14): ')' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (50, 15): Keyword 'then' expected.
+# Error: COMP96_0049: RecorrimientioD.vhd : (56, 17): Syntax error in expression.
+# Error: COMP96_0015: RecorrimientioD.vhd : (56, 17): ')' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (56, 18): Keyword 'then' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (60, 8): Keyword 'process' expected.
+# Error: COMP96_0015: RecorrimientioD.vhd : (65, 6): ';' expected.
+# Error: COMP96_0016: RecorrimientioD.vhd : (65, 13): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work RegistroD -2002  $dsn/src/RecorrimientioD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/eevae/OneDrive/Documentos/Programacion/DSD/RegistroDesplazamiento/ResgistroD/RegistroD/src/RecorrimientioD.vhd
+# Compile Entity "puertos"
+# Compile Architecture "programa" of Entity "puertos"
+# Error: COMP96_0049: RecorrimientioD.vhd : (50, 14): Syntax error in expression.
+# Error: COMP96_0015: RecorrimientioD.vhd : (50, 14): ')' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (50, 15): Keyword 'then' expected.
+# Error: COMP96_0049: RecorrimientioD.vhd : (56, 17): Syntax error in expression.
+# Error: COMP96_0015: RecorrimientioD.vhd : (56, 17): ')' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (56, 18): Keyword 'then' expected.
+# Error: COMP96_0019: RecorrimientioD.vhd : (60, 8): Keyword 'process' expected.
+# Error: COMP96_0015: RecorrimientioD.vhd : (62, 7): ';' expected.
+# Error: COMP96_0016: RecorrimientioD.vhd : (62, 9): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  16.0 [ms]

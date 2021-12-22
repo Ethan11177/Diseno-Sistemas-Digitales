@@ -1,0 +1,32 @@
+V 000053 55 968           1638586161626 arquitectura
+(_unit VHDL(variables 0 28(arquitectura 0 37))
+	(_version ve4)
+	(_time 1638586161627 2021.12.03 20:49:21)
+	(_source(\../src/contador.vhd\))
+	(_parameters tan)
+	(_code 393f3f3c316f6f2f326928636a3f6a3f3c3e3a3e3f)
+	(_ent
+		(_time 1638586110658)
+	)
+	(_object
+		(_port(_int clk -1 0 30(_ent(_in)(_event))))
+		(_type(_int ~STD_LOGIC_VECTOR{2~downto~0}~12 0 31(_array -1((_dto i 2 i 0)))))
+		(_port(_int cont 0 0 31(_ent(_out))))
+		(_type(_int estados 0 39(_enum1 uno dos cinco siete (_to i 0 i 3))))
+		(_sig(_int estado_pr 1 0 40(_arch(_uni))))
+		(_sig(_int sig 1 0 40(_arch(_uni))))
+		(_prcs
+			(line__44(_arch 0 0 44(_prcs(_trgt(2))(_sens(0)(3))(_dssslsensitivity 1))))
+			(line__54(_arch 1 0 54(_prcs(_simple)(_trgt(1)(3))(_sens(2)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_static
+		(197122)
+		(131842)
+		(197123)
+		(197379)
+	)
+	(_model . arquitectura 2 -1)
+)

@@ -1,0 +1,24 @@
+timestamp=1633148002163
+
+[~A]
+ModifyID=8
+Version=74
+
+[~MFT]
+0=10|0RegistroD.mgf|4751|3630
+1=2|1RegistroD.mgf|5194|5194
+3=2|3RegistroD.mgf|0|0
+
+[puertos]
+A/programa=21|../src/RecorrimientioD.vhd|41|1*5194
+BinI32/programa=3*0
+I=0*4551
+I/programa=0*4751
+M=11|0|ve4|1633148002146|../src/RecorrimientioD.vhd|0*4183*0xbaef8b98ae3df2b3b68f1d05f8a78c8e23afe423|0*4464*0x23b75c12e3e89f2ef000564498faa8c2
+M/programa=21|0|ve4|1633148002151|../src/RecorrimientioD.vhd|0*3630*0xb3bb7b106a3335a1355092261b7bf5fa55f6e3b2|0*3873*0x20116f55b147878295aeff36dce7fc50
+R=../src/RecorrimientioD.vhd|30
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|7a656fb829a6ad25127e74ae3f5c306226527262ddaa47cb266f3a3c4d9b973aa2354e9946d49deef1d00b43585333f0
+Version/programa=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|d9b4f1858f9b4cc6cdfc15e305228306d87c0d9e5d47914393e583f08079e8905761dd48741c1f23bf62098277389a4c
+
+[~U]
+puertos=11|0*3972|
